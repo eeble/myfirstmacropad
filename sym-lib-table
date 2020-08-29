@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "/home/andy/kicad/libs/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "/home/andy/kicad/libs/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri /home/andy/kicad/libs/KiCad-SSD1306_OLED-0.91-128x32/SSD1306_OLED-0.91-128x32.lib)(options "")(descr ""))
+  (lib (name tinkerforge)(type Legacy)(uri /home/andy/kicad/libs/tinkerforge-libraries/tinkerforge.lib)(options "")(descr ""))
+  (lib (name SofleKeyboard)(type Legacy)(uri /home/andy/kicad/libs/SofleKeyboard/PCB/SofleKeyboard.lib)(options "")(descr ""))
+)
