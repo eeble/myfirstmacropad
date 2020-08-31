@@ -452,4 +452,28 @@ Text HLabel 4300 1300 0    50   Input ~ 0
 COL_2
 Text HLabel 4850 1300 0    50   Input ~ 0
 COL_3
+NoConn ~ 3050 2050
+NoConn ~ 3150 1950
+NoConn ~ 3600 2050
+NoConn ~ 3700 1950
+NoConn ~ 4150 2050
+NoConn ~ 4250 1950
+NoConn ~ 4700 2050
+NoConn ~ 4800 1950
+NoConn ~ 4800 2900
+NoConn ~ 4700 3000
+NoConn ~ 4250 2900
+NoConn ~ 4150 3000
+NoConn ~ 3700 2900
+NoConn ~ 3600 3000
+NoConn ~ 3150 2900
+NoConn ~ 3050 3000
+NoConn ~ 3150 3850
+NoConn ~ 3050 3950
+NoConn ~ 3600 3950
+NoConn ~ 3700 3850
+NoConn ~ 4150 3950
+NoConn ~ 4250 3850
+NoConn ~ 4700 3950
+NoConn ~ 4800 3850
 $EndSCHEMATC
