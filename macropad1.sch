@@ -641,4 +641,69 @@ F 3 "" H 5700 3600 50  0001 C CNN
 	1    5700 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Memory_EEPROM:24LC512 U2
+U 1 1 5F50FB6A
+P 7850 1600
+F 0 "U2" H 7850 2081 50  0000 C CNN
+F 1 "24LC512" H 7850 1990 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7850 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf" H 7850 1600 50  0001 C CNN
+	1    7850 1600
+	1    0    0    -1  
+$EndComp
+Text Label 8250 1600 0    50   ~ 0
+SCL
+Text Label 8250 1500 0    50   ~ 0
+SDA
+Wire Wire Line
+	7450 1500 7400 1500
+Wire Wire Line
+	7400 1500 7400 1600
+$Comp
+L power:GND #PWR0115
+U 1 1 5F51AA52
+P 7400 2150
+F 0 "#PWR0115" H 7400 1900 50  0001 C CNN
+F 1 "GND" H 7405 1977 50  0000 C CNN
+F 2 "" H 7400 2150 50  0001 C CNN
+F 3 "" H 7400 2150 50  0001 C CNN
+	1    7400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1700 7400 1700
+Connection ~ 7400 1700
+Wire Wire Line
+	7450 1600 7400 1600
+Connection ~ 7400 1600
+Wire Wire Line
+	7400 1600 7400 1700
+Wire Wire Line
+	7400 1700 7400 1900
+Wire Wire Line
+	7850 1900 7400 1900
+Connection ~ 7400 1900
+Wire Wire Line
+	7400 1900 7400 2150
+$Comp
+L power:+5V #PWR0117
+U 1 1 5F52923E
+P 8150 1250
+F 0 "#PWR0117" H 8150 1100 50  0001 C CNN
+F 1 "+5V" H 8165 1423 50  0000 C CNN
+F 2 "" H 8150 1250 50  0001 C CNN
+F 3 "" H 8150 1250 50  0001 C CNN
+	1    8150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1300 8150 1300
+Wire Wire Line
+	8150 1300 8150 1250
+Wire Wire Line
+	8250 1700 8250 1900
+Wire Wire Line
+	8250 1900 7850 1900
+Connection ~ 7850 1900
 $EndSCHEMATC
