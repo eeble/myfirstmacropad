@@ -195,7 +195,7 @@ U 1 1 5F43EC39
 P 2400 2500
 F 0 "Y1" V 2354 2644 50  0000 L CNN
 F 1 "16Mhz" V 2445 2644 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 2400 2500 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2400 2500 50  0001 C CNN
 F 3 "~" H 2400 2500 50  0001 C CNN
 	1    2400 2500
 	0    1    1    0   
@@ -350,6 +350,8 @@ F5 "COL_0" I L 10100 1900 50
 F6 "COL_1" I L 10100 2050 50 
 F7 "COL_2" I L 10100 2200 50 
 F8 "COL_3" I L 10100 2350 50 
+F9 "MCU_PWM" I L 10100 1700 50 
+F10 "VCC" I L 10100 850 50 
 $EndSheet
 Wire Wire Line
 	10100 1100 9850 1100
@@ -383,11 +385,11 @@ Text Label 4500 4900 0    50   ~ 0
 COL_1
 Text Label 4500 5000 0    50   ~ 0
 COL_0
-Text Label 5250 3850 2    50   ~ 0
+Text Label 5150 4000 0    50   ~ 0
 ROW_1
-Text Label 5250 3750 2    50   ~ 0
+Text Label 5150 3800 0    50   ~ 0
 ROW_0
-Text Label 5250 3950 2    50   ~ 0
+Text Label 5150 4100 0    50   ~ 0
 ROW_2
 Text Label 4500 4800 0    50   ~ 0
 COL_2
@@ -399,24 +401,6 @@ Text Label 6050 3500 2    50   ~ 0
 SCL
 Text Label 6050 3400 2    50   ~ 0
 SDA
-Wire Wire Line
-	5250 3750 4900 3750
-Wire Wire Line
-	4900 3750 4900 3800
-Wire Wire Line
-	4900 3800 4500 3800
-Wire Wire Line
-	5250 3850 4850 3850
-Wire Wire Line
-	4850 3850 4850 4000
-Wire Wire Line
-	4850 4000 4500 4000
-Wire Wire Line
-	5250 3950 4950 3950
-Wire Wire Line
-	4950 3950 4950 4100
-Wire Wire Line
-	4950 4100 4500 4100
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5F48D431
@@ -801,17 +785,6 @@ F 3 "~" H 4700 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint P12
-U 1 1 5F6F82A4
-P 4500 2900
-F 0 "P12" V 4454 3088 50  0000 L CNN
-F 1 "TestPoint" V 4545 3088 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 2900 50  0001 C CNN
-F 3 "~" H 4700 2900 50  0001 C CNN
-	1    4500 2900
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:TestPoint P31
 U 1 1 5F6F8637
 P 4500 3100
@@ -853,17 +826,6 @@ F 1 "TestPoint" V 4545 3888 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 3700 50  0001 C CNN
 F 3 "~" H 4700 3700 50  0001 C CNN
 	1    4500 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint P22
-U 1 1 5F6F96DD
-P 4500 3900
-F 0 "P22" V 4454 4088 50  0000 L CNN
-F 1 "TestPoint" V 4545 4088 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 3900 50  0001 C CNN
-F 3 "~" H 4700 3900 50  0001 C CNN
-	1    4500 3900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -910,4 +872,78 @@ F 3 "~" H 3500 2800 50  0001 C CNN
 	1    3300 2800
 	0    -1   -1   0   
 $EndComp
+Text Label 5150 3900 0    50   ~ 0
+status_led
+Wire Wire Line
+	4500 4100 5150 4100
+Wire Wire Line
+	4500 4000 5150 4000
+Wire Wire Line
+	4500 3800 5150 3800
+Wire Wire Line
+	5150 3900 4500 3900
+$Comp
+L Device:LED D13
+U 1 1 5F62114F
+P 6050 4800
+F 0 "D13" H 6043 5017 50  0000 C CNN
+F 1 "LED" H 6043 4926 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6050 4800 50  0001 C CNN
+F 3 "~" H 6050 4800 50  0001 C CNN
+	1    6050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5F621EFB
+P 5700 4800
+F 0 "#PWR0120" H 5700 4550 50  0001 C CNN
+F 1 "GND" H 5705 4627 50  0000 C CNN
+F 2 "" H 5700 4800 50  0001 C CNN
+F 3 "" H 5700 4800 50  0001 C CNN
+	1    5700 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4800 5900 4800
+$Comp
+L Device:R_Small_US R5
+U 1 1 5F62673C
+P 6400 4800
+F 0 "R5" V 6195 4800 50  0000 C CNN
+F 1 "330" V 6286 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6400 4800 50  0001 C CNN
+F 3 "~" H 6400 4800 50  0001 C CNN
+	1    6400 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4800 6300 4800
+Wire Wire Line
+	6500 4800 6800 4800
+Wire Wire Line
+	6800 4800 6800 4750
+Text Label 6800 4750 0    50   ~ 0
+status_led
+Wire Wire Line
+	9800 850  9800 800 
+Wire Wire Line
+	9800 850  10100 850 
+$Comp
+L power:+5V #PWR01
+U 1 1 5F6F79C5
+P 9800 800
+F 0 "#PWR01" H 9800 650 50  0001 C CNN
+F 1 "+5V" H 9815 973 50  0000 C CNN
+F 2 "" H 9800 800 50  0001 C CNN
+F 3 "" H 9800 800 50  0001 C CNN
+	1    9800 800 
+	1    0    0    -1  
+$EndComp
+Text Label 5200 2900 0    50   ~ 0
+PWM1
+Wire Wire Line
+	5200 2900 4500 2900
+Text Label 10100 1700 2    50   ~ 0
+PWM1
 $EndSCHEMATC
