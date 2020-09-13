@@ -68,33 +68,27 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R3
 U 1 1 5F432C2C
-P 2650 3300
-F 0 "R3" V 2445 3300 50  0000 C CNN
-F 1 "22" V 2536 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 2650 3300 50  0001 C CNN
-F 3 "~" H 2650 3300 50  0001 C CNN
-	1    2650 3300
-	0    1    1    0   
+P 7850 3750
+F 0 "R3" V 7645 3750 50  0000 C CNN
+F 1 "22" V 7736 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7850 3750 50  0001 C CNN
+F 3 "~" H 7850 3750 50  0001 C CNN
+	1    7850 3750
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R2
 U 1 1 5F4331FA
-P 2300 3200
-F 0 "R2" V 2095 3200 50  0000 C CNN
-F 1 "22" V 2186 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 3200 50  0001 C CNN
-F 3 "~" H 2300 3200 50  0001 C CNN
-	1    2300 3200
+P 7850 3650
+F 0 "R2" V 7645 3650 50  0000 C CNN
+F 1 "22" V 7736 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7850 3650 50  0001 C CNN
+F 3 "~" H 7850 3650 50  0001 C CNN
+	1    7850 3650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 3300 2750 3300
-Wire Wire Line
 	2400 3200 3300 3200
-Wire Wire Line
-	2200 3200 1300 3200
-Wire Wire Line
-	2550 3300 1300 3300
 $Comp
 L Device:C_Small C1
 U 1 1 5F43440C
@@ -269,36 +263,18 @@ Wire Wire Line
 Connection ~ 1700 2600
 Connection ~ 1800 2750
 $Comp
-L Switch:SW_Reed SW1
-U 1 1 5F466CA0
-P 2750 1750
-F 0 "SW1" H 2750 1972 50  0000 C CNN
-F 1 "SW_Reed" H 2750 1881 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_REED_CT05-XXXX-G1" H 2750 1750 50  0001 C CNN
-F 3 "~" H 2750 1750 50  0001 C CNN
-	1    2750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0109
 U 1 1 5F467A70
-P 2250 1750
-F 0 "#PWR0109" H 2250 1500 50  0001 C CNN
-F 1 "GND" H 2255 1577 50  0000 C CNN
-F 2 "" H 2250 1750 50  0001 C CNN
-F 3 "" H 2250 1750 50  0001 C CNN
-	1    2250 1750
+P 1450 1800
+F 0 "#PWR0109" H 1450 1550 50  0001 C CNN
+F 1 "GND" H 1455 1627 50  0000 C CNN
+F 2 "" H 1450 1800 50  0001 C CNN
+F 3 "" H 1450 1800 50  0001 C CNN
+	1    1450 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 2200 2950 2200
-Wire Wire Line
-	2950 2200 2950 1750
-Connection ~ 2950 1750
-Wire Wire Line
-	2950 1750 2950 1500
-Wire Wire Line
-	2550 1750 2250 1750
+	1950 1800 1450 1800
 $Comp
 L Device:R_Small_US R4
 U 1 1 5F46A1EB
@@ -312,9 +288,9 @@ F 3 "~" H 2950 1400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2950 1200 2950 1300
-Text GLabel 1300 3200 0    50   Input ~ 0
+Text GLabel 2400 3200 0    50   Input ~ 0
 D+
-Text GLabel 1300 3300 0    50   Input ~ 0
+Text GLabel 2400 3300 0    50   Input ~ 0
 D-
 $Comp
 L Device:Polyfuse_Small F1
@@ -347,9 +323,9 @@ Wire Wire Line
 Connection ~ 8150 3450
 Wire Wire Line
 	8150 3450 8500 3450
-Text GLabel 7750 3750 2    50   Input ~ 0
+Text GLabel 7950 3650 2    50   Input ~ 0
 D+
-Text GLabel 7750 3650 2    50   Input ~ 0
+Text GLabel 7950 3750 2    50   Input ~ 0
 D-
 $Comp
 L power:GND #PWR0113
@@ -485,13 +461,13 @@ Wire Wire Line
 	5550 1550 5600 1550
 Wire Wire Line
 	5550 1650 5600 1650
-Text Label 4500 2200 0    50   ~ 0
+Text Label 5550 2200 0    50   ~ 0
 RE_A
-Text Label 4500 2300 0    50   ~ 0
+Text Label 5550 2300 0    50   ~ 0
 RE_B
-Text Label 4500 2500 0    50   ~ 0
+Text Label 5550 2500 0    50   ~ 0
 ENC_S1
-Text Label 4500 2400 0    50   ~ 0
+Text Label 5550 2400 0    50   ~ 0
 ENC_S2
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U1
@@ -706,4 +682,102 @@ Wire Wire Line
 Wire Wire Line
 	8250 1900 7850 1900
 Connection ~ 7850 1900
+Wire Notes Line
+	7200 5550 26100 5550
+Wire Notes Line
+	26100 5550 26100 -9000
+Wire Wire Line
+	2400 3300 3300 3300
+$Comp
+L tinkerforge:SPST SW1
+U 1 1 5F612E1E
+P 2450 1800
+F 0 "SW1" H 2450 2065 50  0000 C CNN
+F 1 "SPST" H 2450 1974 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_REED_CT05-XXXX-G1" H 2450 1800 50  0001 C CNN
+F 3 "" H 2450 1800 50  0000 C CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1500 2950 1800
+Connection ~ 2950 1800
+Wire Wire Line
+	2950 1800 2950 2200
+Wire Wire Line
+	4500 2200 5550 2200
+$Comp
+L Connector:AVR-ISP-6 J3
+U 1 1 5F656108
+P 6400 2550
+F 0 "J3" H 6070 2554 50  0000 R CNN
+F 1 "AVR-ISP-6" H 6070 2645 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 6150 2600 50  0001 C CNN
+F 3 " ~" H 5125 2000 50  0001 C CNN
+	1    6400 2550
+	-1   0    0    1   
+$EndComp
+Text Label 3300 2200 2    50   ~ 0
+!RESET
+Text Label 2950 2200 2    50   ~ 0
+!RESET
+Text Label 5450 1900 2    50   ~ 0
+!RESET
+Wire Wire Line
+	6000 2450 6000 1900
+Wire Wire Line
+	6000 1900 5450 1900
+Wire Wire Line
+	4500 2500 5500 2500
+Wire Wire Line
+	4500 2400 5450 2400
+Wire Wire Line
+	4500 2300 5400 2300
+Wire Wire Line
+	5400 2300 5400 2550
+Wire Wire Line
+	5400 2550 6000 2550
+Connection ~ 5400 2300
+Wire Wire Line
+	5400 2300 5550 2300
+Wire Wire Line
+	5450 2400 5450 2650
+Wire Wire Line
+	5450 2650 6000 2650
+Connection ~ 5450 2400
+Wire Wire Line
+	5450 2400 5550 2400
+Wire Wire Line
+	5500 2500 5500 2750
+Wire Wire Line
+	5500 2750 6000 2750
+Connection ~ 5500 2500
+Wire Wire Line
+	5500 2500 5550 2500
+$Comp
+L power:+5V #PWR0118
+U 1 1 5F6A40D5
+P 6850 3050
+F 0 "#PWR0118" H 6850 2900 50  0001 C CNN
+F 1 "+5V" H 6865 3223 50  0000 C CNN
+F 2 "" H 6850 3050 50  0001 C CNN
+F 3 "" H 6850 3050 50  0001 C CNN
+	1    6850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3050 6500 3050
+$Comp
+L power:GND #PWR0119
+U 1 1 5F6A8DB1
+P 6950 2150
+F 0 "#PWR0119" H 6950 1900 50  0001 C CNN
+F 1 "GND" H 6955 1977 50  0000 C CNN
+F 2 "" H 6950 2150 50  0001 C CNN
+F 3 "" H 6950 2150 50  0001 C CNN
+	1    6950 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2150 6500 2150
 $EndSCHEMATC
