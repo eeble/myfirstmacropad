@@ -480,18 +480,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    3900 3700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4500 2600
-NoConn ~ 4500 2700
-NoConn ~ 4500 2800
-NoConn ~ 4500 2900
-NoConn ~ 4500 3100
-NoConn ~ 4500 3200
-NoConn ~ 4500 3600
-NoConn ~ 4500 3700
-NoConn ~ 4500 3900
-NoConn ~ 4500 4400
-NoConn ~ 4500 4600
-NoConn ~ 4500 5100
 Wire Wire Line
 	6200 1450 6300 1450
 Wire Wire Line
@@ -517,7 +505,6 @@ Wire Wire Line
 	7750 3750 7650 3750
 Connection ~ 7250 4050
 NoConn ~ 7650 3850
-NoConn ~ 3300 2800
 Wire Wire Line
 	3300 3000 1150 3000
 Wire Wire Line
@@ -780,4 +767,147 @@ F 3 "" H 6950 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 2150 6500 2150
+$Comp
+L Connector:TestPoint P28
+U 1 1 5F6F4AA3
+P 4500 2600
+F 0 "P28" V 4454 2788 50  0000 L CNN
+F 1 "TestPoint" V 4545 2788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 2600 50  0001 C CNN
+F 3 "~" H 4700 2600 50  0001 C CNN
+	1    4500 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P29
+U 1 1 5F6F7A9F
+P 4500 2700
+F 0 "P29" V 4454 2888 50  0000 L CNN
+F 1 "TestPoint" V 4545 2888 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 2700 50  0001 C CNN
+F 3 "~" H 4700 2700 50  0001 C CNN
+	1    4500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P30
+U 1 1 5F6F7EF0
+P 4500 2800
+F 0 "P30" V 4454 2988 50  0000 L CNN
+F 1 "TestPoint" V 4545 2988 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 2800 50  0001 C CNN
+F 3 "~" H 4700 2800 50  0001 C CNN
+	1    4500 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P12
+U 1 1 5F6F82A4
+P 4500 2900
+F 0 "P12" V 4454 3088 50  0000 L CNN
+F 1 "TestPoint" V 4545 3088 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 2900 50  0001 C CNN
+F 3 "~" H 4700 2900 50  0001 C CNN
+	1    4500 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P31
+U 1 1 5F6F8637
+P 4500 3100
+F 0 "P31" V 4454 3288 50  0000 L CNN
+F 1 "TestPoint" V 4545 3288 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 3100 50  0001 C CNN
+F 3 "~" H 4700 3100 50  0001 C CNN
+	1    4500 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P32
+U 1 1 5F6F8A2A
+P 4500 3200
+F 0 "P32" V 4454 3388 50  0000 L CNN
+F 1 "TestPoint" V 4545 3388 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 3200 50  0001 C CNN
+F 3 "~" H 4700 3200 50  0001 C CNN
+	1    4500 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P20
+U 1 1 5F6F8E3F
+P 4500 3600
+F 0 "P20" V 4454 3788 50  0000 L CNN
+F 1 "TestPoint" V 4545 3788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 3600 50  0001 C CNN
+F 3 "~" H 4700 3600 50  0001 C CNN
+	1    4500 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P21
+U 1 1 5F6F92F7
+P 4500 3700
+F 0 "P21" V 4454 3888 50  0000 L CNN
+F 1 "TestPoint" V 4545 3888 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 3700 50  0001 C CNN
+F 3 "~" H 4700 3700 50  0001 C CNN
+	1    4500 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P22
+U 1 1 5F6F96DD
+P 4500 3900
+F 0 "P22" V 4454 4088 50  0000 L CNN
+F 1 "TestPoint" V 4545 4088 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 3900 50  0001 C CNN
+F 3 "~" H 4700 3900 50  0001 C CNN
+	1    4500 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P1
+U 1 1 5F6F9AE5
+P 4500 4400
+F 0 "P1" V 4454 4588 50  0000 L CNN
+F 1 "TestPoint" V 4545 4588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 4400 50  0001 C CNN
+F 3 "~" H 4700 4400 50  0001 C CNN
+	1    4500 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P41
+U 1 1 5F6FA019
+P 4500 4600
+F 0 "P41" V 4454 4788 50  0000 L CNN
+F 1 "TestPoint" V 4545 4788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 4600 50  0001 C CNN
+F 3 "~" H 4700 4600 50  0001 C CNN
+	1    4500 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P36
+U 1 1 5F6FC57F
+P 4500 5100
+F 0 "P36" V 4454 5288 50  0000 L CNN
+F 1 "TestPoint" V 4545 5288 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 5100 50  0001 C CNN
+F 3 "~" H 4700 5100 50  0001 C CNN
+	1    4500 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint P42
+U 1 1 5F6FCA35
+P 3300 2800
+F 0 "P42" V 3495 2872 50  0000 C CNN
+F 1 "TestPoint" V 3404 2872 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3500 2800 50  0001 C CNN
+F 3 "~" H 3500 2800 50  0001 C CNN
+	1    3300 2800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
