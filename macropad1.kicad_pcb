@@ -1135,7 +1135,7 @@
     )
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437BF9)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437BF9)
     (at 119.39375 74.3275)
     (path /5F4E6459/5F505255)
     (fp_text reference MX10 (at 0 3.175) (layer Dwgs.User)
@@ -1409,7 +1409,7 @@
     )
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437B7C)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437B7C)
     (at 100.34375 36.2275)
     (path /5F4E6459/5F5052D3)
     (fp_text reference MX1 (at 0 3.175) (layer Dwgs.User)
@@ -1447,7 +1447,7 @@
       (net 6 "Net-(D1-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437BC7)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437BC7)
     (at 119.39375 36.2275)
     (path /5F4E6459/5F5052C5)
     (fp_text reference MX2 (at 0 3.175) (layer Dwgs.User)
@@ -1485,7 +1485,7 @@
       (net 7 "Net-(D2-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C12)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C12)
     (at 138.44375 36.2275)
     (path /5F4E6459/5F50529B)
     (fp_text reference MX3 (at 0 3.175) (layer Dwgs.User)
@@ -1523,7 +1523,7 @@
       (net 8 "Net-(D3-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C5D)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C5D)
     (at 157.49375 36.2275)
     (path /5F4E6459/5F50528D)
     (fp_text reference MX4 (at 0 3.175) (layer Dwgs.User)
@@ -1561,7 +1561,7 @@
       (net 9 "Net-(D4-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437B95)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437B95)
     (at 100.34375 55.2775)
     (path /5F4E6459/5F5052B7)
     (fp_text reference MX5 (at 0 3.175) (layer Dwgs.User)
@@ -1599,7 +1599,7 @@
       (net 10 "Net-(D5-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437BE0)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437BE0)
     (at 119.39375 55.2775)
     (path /5F4E6459/5F5052A9)
     (fp_text reference MX6 (at 0 3.175) (layer Dwgs.User)
@@ -1637,7 +1637,7 @@
       (net 11 "Net-(D6-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C2B)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C2B)
     (at 138.44375 55.2775)
     (path /5F4E6459/5F50527F)
     (fp_text reference MX7 (at 0 3.175) (layer Dwgs.User)
@@ -1675,7 +1675,7 @@
       (net 12 "Net-(D7-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C76)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C76)
     (at 157.49375 55.2775)
     (path /5F4E6459/5F505271)
     (fp_text reference MX8 (at 0 3.175) (layer Dwgs.User)
@@ -1713,7 +1713,7 @@
       (net 13 "Net-(D8-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F47E5A5)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F47E5A5)
     (at 100.34375 74.3275)
     (path /5F4E6459/5F505263)
     (fp_text reference MX9 (at 0 3.175) (layer Dwgs.User)
@@ -1751,7 +1751,7 @@
       (net 14 "Net-(D9-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C44)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C44)
     (at 138.44375 74.3275)
     (path /5F4E6459/5F505247)
     (fp_text reference MX11 (at 0 3.175) (layer Dwgs.User)
@@ -1789,7 +1789,7 @@
       (net 16 "Net-(D11-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C8F)
+  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F437C8F)
     (at 157.49375 74.3275)
     (path /5F4E6459/5F505239)
     (fp_text reference MX12 (at 0 3.175) (layer Dwgs.User)
