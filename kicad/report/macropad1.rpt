@@ -1,0 +1,44 @@
+** Drc report for /home/andy/kicad/projects/macropad1/macropad1.kicad_pcb **
+** Created on 2020-09-13 13:28:27 **
+
+** Found 12 DRC errors **
+ErrType(51): Drilled holes too close together
+    @(121.934 mm, 69.248 mm): Pad 2 of MX10 on All copper layers
+    @(121.894 mm, 69.828 mm): Pad 2 of MX10 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(102.884 mm, 31.148 mm): Pad 2 of MX1 on All copper layers
+    @(102.844 mm, 31.727 mm): Pad 2 of MX1 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(121.934 mm, 31.148 mm): Pad 2 of MX2 on All copper layers
+    @(121.894 mm, 31.727 mm): Pad 2 of MX2 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(140.984 mm, 31.148 mm): Pad 2 of MX3 on All copper layers
+    @(140.944 mm, 31.727 mm): Pad 2 of MX3 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(160.034 mm, 31.148 mm): Pad 2 of MX4 on All copper layers
+    @(159.994 mm, 31.727 mm): Pad 2 of MX4 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(102.884 mm, 50.197 mm): Pad 2 of MX5 on All copper layers
+    @(102.844 mm, 50.778 mm): Pad 2 of MX5 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(121.934 mm, 50.197 mm): Pad 2 of MX6 on All copper layers
+    @(121.894 mm, 50.778 mm): Pad 2 of MX6 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(140.984 mm, 50.197 mm): Pad 2 of MX7 on All copper layers
+    @(140.944 mm, 50.778 mm): Pad 2 of MX7 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(160.034 mm, 50.197 mm): Pad 2 of MX8 on All copper layers
+    @(159.994 mm, 50.778 mm): Pad 2 of MX8 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(102.884 mm, 69.248 mm): Pad 2 of MX9 on All copper layers
+    @(102.844 mm, 69.828 mm): Pad 2 of MX9 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(140.984 mm, 69.248 mm): Pad 2 of MX11 on All copper layers
+    @(140.944 mm, 69.828 mm): Pad 2 of MX11 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(160.034 mm, 69.248 mm): Pad 2 of MX12 on All copper layers
+    @(159.994 mm, 69.828 mm): Pad 2 of MX12 on All copper layers
+
+** Found 0 unconnected pads **
+
+** End of Report **

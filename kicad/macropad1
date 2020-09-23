@@ -1,0 +1,41 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/andy/kicad/projects/macropad1/macropad1.sch</h1>
+    <p>Sun 13 Sep 2020 03:26:35 PM EDT</p>
+    <p>Eeschema 5.1.6</p>
+    <p><b>Component Count:</b>63</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1</td><td>1</td><td>1uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C2, C3, C4</td><td>3</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C5</td><td>1</td><td>10uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C6, C7</td><td>2</td><td>22pF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12</td><td>12</td><td>D_Small</td><td>Device:D_Small</td><td>Diode_SMD:D_SOD-123</td><td>Diode, small symbol</td><td></td></tr>
+    <tr><td>D13</td><td>1</td><td>LED</td><td>Device:LED</td><td>LED_SMD:LED_0805_2012Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>F1</td><td>1</td><td>500mA</td><td>Device:Polyfuse_Small</td><td>Fuse:Fuse_1206_3216Metric</td><td>Resettable fuse, polymeric positive temperature coefficient, small symbol</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Conn_01x04</td><td>Connector_Generic:Conn_01x04</td><td>SofleKeyboard-footprint:OLED_0.91in_4pin</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>USB_B_Mini</td><td>Connector:USB_B_Mini</td><td>Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal</td><td>USB Mini Type B connector</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>AVR-ISP-6</td><td>Connector:AVR-ISP-6</td><td>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</td><td>Atmel 6-pin ISP connector</td><td></td></tr>
+    <tr><td>MX1, MX2, MX3, MX4, MX5, MX6, MX7, MX8, MX9, MX10, MX11, MX12</td><td>12</td><td>MX-LED</td><td>MX_Alps_Hybrid:MX-LED</td><td>MX_Alps_Hybrid:MX-1U</td><td></td><td></td></tr>
+    <tr><td>P1, P20, P21, P28, P29, P30, P31, P32, P36, P41, P42</td><td>11</td><td>TestPoint</td><td>Connector:TestPoint</td><td>TestPoint:TestPoint_Pad_D1.0mm</td><td>test point</td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>Q_NMOS_DGS</td><td>Device:Q_NMOS_DGS</td><td>Package_TO_SOT_SMD:SOT-723</td><td>N-MOSFET transistor, drain/gate/source</td><td></td></tr>
+    <tr><td>R1, R4, R7</td><td>3</td><td>10k</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R2, R3</td><td>2</td><td>22</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R5, R8, R9, R10</td><td>4</td><td>330</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>470</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>SPST</td><td>tinkerforge:SPST</td><td>Button_Switch_SMD:SW_SPST_REED_CT05-XXXX-G1</td><td>Interrupteur simple</td><td></td></tr>
+    <tr><td>SW2</td><td>1</td><td>Rotary_Encoder_Switch</td><td>Device:Rotary_Encoder_Switch</td><td>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</td><td>Rotary encoder, dual channel, incremental quadrate outputs, with switch</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>ATmega32U4-AU</td><td>MCU_Microchip_ATmega:ATmega32U4-AU</td><td>Package_QFP:TQFP-44_10x10mm_P0.8mm</td><td>16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>24LC512</td><td>Memory_EEPROM:24LC512</td><td>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</td><td>I2C Serial EEPROM, 512Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8</td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>16Mhz</td><td>Device:Crystal_GND24_Small</td><td>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</td><td>Four pin crystal, GND on pins 2 and 4, small symbol</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
