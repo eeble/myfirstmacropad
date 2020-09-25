@@ -41,7 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 5
 #define MATRIX_ROW_PINS { D4, D6, D7, B2 }
-#define MATRIX_COL_PINS { F6,F5,F4,F1, B3 }
+#define MATRIX_COL_PINS { B3, F6,F5,F4,F1 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/

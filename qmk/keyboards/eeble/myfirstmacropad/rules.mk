@@ -34,3 +34,4 @@ FAUXCLICKY_ENABLE = no      # Use buzzer to emulate clicky switches
 ENCODER_ENABLE = yes
 MOUSEKEY_ENABLE = yes
 KEY_LOCK_ENABLE = yes
+OLED_DRIVER_ENABLE = yes
