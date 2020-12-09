@@ -8,3 +8,6 @@ This macropad will use QMK as its firmware. QMK is also open source and availabl
 ### Front and Back renders
 ![Front](/pics/front.png)
 ![Back](/pics/back.png)
+
+### BOM
+Interactive [BOM](kicad/bom/ibom.html)
