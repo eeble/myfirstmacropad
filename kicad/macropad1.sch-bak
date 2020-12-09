@@ -946,4 +946,48 @@ Wire Wire Line
 	5200 2900 4500 2900
 Text Label 10100 1700 2    50   ~ 0
 PWM1
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FBC66B9
+P 1000 7050
+F 0 "H1" H 1100 7096 50  0000 L CNN
+F 1 "MountingHole" H 1100 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1000 7050 50  0001 C CNN
+F 3 "~" H 1000 7050 50  0001 C CNN
+	1    1000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FBC7143
+P 1850 7050
+F 0 "H3" H 1950 7096 50  0000 L CNN
+F 1 "MountingHole" H 1950 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1850 7050 50  0001 C CNN
+F 3 "~" H 1850 7050 50  0001 C CNN
+	1    1850 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FBC72DB
+P 1850 7300
+F 0 "H4" H 1950 7346 50  0000 L CNN
+F 1 "MountingHole" H 1950 7255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1850 7300 50  0001 C CNN
+F 3 "~" H 1850 7300 50  0001 C CNN
+	1    1850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FBC7533
+P 1000 7300
+F 0 "H2" H 1100 7346 50  0000 L CNN
+F 1 "MountingHole" H 1100 7255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1000 7300 50  0001 C CNN
+F 3 "~" H 1000 7300 50  0001 C CNN
+	1    1000 7300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

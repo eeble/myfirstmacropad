@@ -1,5 +1,5 @@
 /*
-Copyright 2019 imchipwood
+Copyright 2019 eeble
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x3845
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    eeble
-#define PRODUCT         myfirstmacropad
-#define DESCRIPTION     3x4+1 macropad with rotary encoder, oled screen, and eeprom
+#define PRODUCT         eeble myfirstmacropad
+#define DESCRIPTION     eeble myfirstmacropad
 
 
 /*
@@ -56,8 +56,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define LAYER_INDICATOR_LED_1 B1
 
 /* Bootmagic - hold down rotary encoder pushbutton while plugging in to enter bootloader */
-#define BOOTMAGIC_LITE_ROW 4
-#define BOOTMAGIC_LITE_COLUMN 5
+#define BOOTMAGIC_LITE_ROW 3
+#define BOOTMAGIC_LITE_COLUMN 0
 
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */

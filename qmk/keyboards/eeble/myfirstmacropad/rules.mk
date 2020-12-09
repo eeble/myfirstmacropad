@@ -15,7 +15,7 @@ BOOTLOADER = atmel-dfu
 #   change yes to no to disable
 #
 BOOTMAGIC_ENABLE = lite      # Virtual DIP switch configuration
-MOUSEKEY_ENABLE = yes       # Mouse keys
+MOUSEKEY_ENABLE = no       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = yes        # Console for debug
 COMMAND_ENABLE = yes        # Commands for debug and configuration
@@ -32,6 +32,8 @@ AUDIO_ENABLE = no           # Audio output on port C6
 FAUXCLICKY_ENABLE = no      # Use buzzer to emulate clicky switches
 
 ENCODER_ENABLE = yes
-MOUSEKEY_ENABLE = yes
-KEY_LOCK_ENABLE = yes
+MOUSEKEY_ENABLE = no
+KEY_LOCK_ENABLE = no
+TERMINAL_ENABLE = no
 OLED_DRIVER_ENABLE = yes
+#LINK_TIME_OPTIMIZATION_ENABLE = yes
